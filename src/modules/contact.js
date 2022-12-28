@@ -37,15 +37,15 @@ let contact = () => {
 
     facebookIcon.src = Fb;
     facebook.append(facebookIcon);
-    facebook.innerHTML += `<h2 class='contactNetwork'>MaricosCafe</h2>`;
+    facebook.innerHTML += `<h2 class='contactNetwork'>OdinsCafe</h2>`;
 
     twitterIcon.src = Tw;
     twitter.append(twitterIcon);
-    twitter.innerHTML += `<h2 class='contactNetwork'>@MaricosCafe</h2>`;
+    twitter.innerHTML += `<h2 class='contactNetwork'>@OdinsCafe</h2>`;
 
     instagramIcon.src = Ig;
     instagram.append(instagramIcon);
-    instagram.innerHTML += `<h2 class='contactNetwork'>@MaricosCafe</h2>`;
+    instagram.innerHTML += `<h2 class='contactNetwork'>@OdinsCafe</h2>`;
 
     header.innerHTML = "You can find us in:";
 
