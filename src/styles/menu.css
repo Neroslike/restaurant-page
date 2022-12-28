@@ -1,0 +1,69 @@
+.itemContainer {
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+  padding: 2rem 6vw;
+}
+
+.itemContainer:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+.itemContainer:nth-of-type(2n) > .descContainer > .itemName {
+  text-align: end;
+}
+
+.imageContainer {
+  /* width: clamp(200px, 100%, 600px); */
+  max-height: 200px;
+}
+
+@media (max-width: 500px) {
+}
+
+.itemPic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid #c88e3d;
+  filter: drop-shadow(8px 8px 12px rgba(0, 0, 0, 0.5));
+  border-radius: 8px;
+}
+
+.itemName {
+  font-family: "Dancing Script", sans-serif;
+  font-size: clamp(24px, 5vw, 48px);
+  padding: 0 0 8% 0;
+  margin: 0;
+}
+
+.itemDescription {
+  font-size: clamp(16px, 2vw, 24px);
+  margin: 0;
+}
+
+.descContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list {
+  font-weight: 600;
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 400;
+  padding: 0.4rem 0;
+}
+
+.listContainer {
+  display: flex;
+  gap: 10vw;
+  padding: 0 3em;
+  justify-content: center;
+}
